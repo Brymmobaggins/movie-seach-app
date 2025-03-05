@@ -1,15 +1,17 @@
 /** @format */
 
-import React from "react";
-import MovieSearch from './components/MovieSearch';
 
+// import './App.css';
+import React from "react";
+import MovieModal from "./components/MovieModal";
+import MovieSearch from "./components/MovieSearch";
 
 function App() {
   return (
-    <div className="">
-      <h1>Movies Search</h1>
-      <MovieSearch/>
-     
+    <div className="bg-yellow-100">
+      <h1>Movies Search Application</h1>
+      <MovieModal />
+      <MovieSearch />
     </div>
   );
 }

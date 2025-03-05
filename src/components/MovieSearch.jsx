@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import MovieList from "./MovieList";
 import "./MovieSearch.css"; // Import CSS for styling
+import "./MovieModal.css"
 
 const MovieSearch = () => {
   const [query, setQuery] = useState(""); // State to store the search query
@@ -63,13 +64,13 @@ const MovieSearch = () => {
         onKeyDown={handleKeyDown} // Trigger search on Enter key press
       />
 
-      {loading && <p className="loading">Loading...</p>} // Show loading message
-      {error && <p className="error">{error}</p>} // Show error message
+      {loading && <p className="loading">Loading...</p>} 
+      {error && <p className="error">{error}</p>} 
       {!loading && !error && movies.length === 0 && query && (
         <p className="no-results">No movies found</p> // Show no results message
       )}
 
-      <MovieList movies={movies} /> // Render the list of movies
+      <MovieList movies={movies} /> 
     </div>
   );
 };
