@@ -8,9 +8,8 @@ It fetches movie data from the OMDB API.
 
 
 ## Core concept
-- functions
-- Fetch API (OMDB)
-- React JavaScript with Vite
+- APi integration and Asynchronous request(fetch API, useHook, DebouncedSearch)
+- React JavaScript( component, state management, props)
 
 
 ## Features

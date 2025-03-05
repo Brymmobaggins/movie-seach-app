@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import MovieList from "./MovieList";
 import "./MovieSearch.css"; // Import CSS for styling
-import "./MovieModal.css"
+import "./MovieModal.css";
 
 const MovieSearch = () => {
   const [query, setQuery] = useState(""); // State to store the search query
@@ -54,23 +54,28 @@ const MovieSearch = () => {
   };
 
   return (
-    <div className="movie-search-container">
-      <input
-        type="text"
-        className="search-input"
-        placeholder="Search for a movie..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)} // Update query state on input change
-        onKeyDown={handleKeyDown} // Trigger search on Enter key press
-      />
+    <div>
+      <div className="">
+        <img src="" alt="" />
+      </div>
+      <div className="movie-search-container">
+        <input
+          type="text"
+          className="search-input"
+          placeholder="Search for a movie..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)} // Update query state on input change
+          onKeyDown={handleKeyDown} // Trigger search on Enter key press
+        />
 
-      {loading && <p className="loading">Loading...</p>} 
-      {error && <p className="error">{error}</p>} 
-      {!loading && !error && movies.length === 0 && query && (
-        <p className="no-results">No movies found</p> // Show no results message
-      )}
+        {loading && <p className="loading">Loading...</p>}
+        {error && <p className="error">{error}</p>}
+        {!loading && !error && movies.length === 0 && query && (
+          <p className="no-results">No movies found</p> // Show no results message
+        )}
 
-      <MovieList movies={movies} /> 
+        <MovieList movies={movies} />
+      </div>
     </div>
   );
 };
