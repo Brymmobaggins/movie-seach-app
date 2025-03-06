@@ -6,6 +6,7 @@ import MovieModal from "./components/MovieModal";
 import MovieSearch from "./components/MovieSearch";
 
 function App() {
+ 
   return (
     <div className="">
       <div className="bg-blue-100">
