@@ -15,12 +15,15 @@ It fetches movie data from the OMDB API.
 ## Features
 
 -🔍 Search Movies: Enter a keyword to search for movies.
+
 -📜 View Movie Details: Click on a movie to see details like title, year, genre, plot, director, and actors.
 -🎭 Debounced Search: Optimized API calls to avoid excessive requests.
+
 -🎨 Responsive Design: Works seamlessly on both mobile and desktop.
+
 -🎬 Animations & Transitions: Smooth UI interactions.
 
 
 ## Live Demo
 
-()[]
+[Click here to view deployd app](https://movie-search-website-nu.vercel.app/)
