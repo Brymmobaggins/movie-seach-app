@@ -10,12 +10,12 @@ body {
   color: #0c0505;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url(/src/assets/bg-cinema.png);
+  background-image: url(/src/assets/bg-cinema-removebg-preview.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right top;
 }
 
 .container {

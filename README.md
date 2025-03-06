@@ -8,7 +8,7 @@ It fetches movie data from the OMDB API.
 
 
 ## Core concept
-- APi integration and Asynchronous request(fetch API, useHook, DebouncedSearch)
+- API integration and Asynchronous request(fetch API, useHook, DebouncedSearch)
 - React JavaScript( component, state management, props)
 
 
@@ -26,4 +26,4 @@ It fetches movie data from the OMDB API.
 
 ## Live Demo
 
-[Click here to view deployd app](https://movie-search-website-nu.vercel.app/)
+[Click here to view deployed app](https://movie-search-website-nu.vercel.app/)
